@@ -1,7 +1,7 @@
 answer_list = {}
 valute = []
 # Открываем файл. Указываем кодировку windows-1251, чтобы русский текст не сломался
-with open('currency (1).xml') as currency:
+with open('currency.xml') as currency:
     for text in currency:  # Получаем из xml строки, которые можно прочитать
         valute = text.split('ID')  # Список строк
 # for i in valute:
